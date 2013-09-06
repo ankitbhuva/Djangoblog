@@ -1,0 +1,4 @@
+Djangoblog
+==========
+
+Blogging Client
