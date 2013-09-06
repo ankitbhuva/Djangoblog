@@ -1,0 +1,25 @@
+{% include 'header.html' %}
+	{% load comments %}
+	<h1>Post for {{ category.title }}</h1>
+	{% if posts %}
+	{% for post in posts %}
+	<div class="post">
+	<h1><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h1>
+	{{ post.text }}
+	{% get_comment_count for post as comment_count %}
+	<h3> Comments : {{ comment_count }}</h3>
+	</div>
+	{% endfor %}
+	<br />
+	{% if page.has_previous %}
+	<a href="/{{ page.previous_page_number }}/">Previous page</a>
+	{% endif %}
+	{% if page.has_next %}
+	<a href="/{{ page.next_page_number }}/">Next Page</a>
+	{% endif %}
+	{% else %}
+	<div class="post">
+	<p> No Posts Matched </p>
+	</div>
+	{% endif %}
+{% include 'footer.html' %}
