@@ -1,4 +1,4 @@
-Django==1.4.5
+Django==1.11.23
 GDAL==1.9.0
 MySQL-python==1.2.3
 NINJA-IDE==2.3
