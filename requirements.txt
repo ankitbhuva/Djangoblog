@@ -3,7 +3,7 @@ GDAL==1.9.0
 MySQL-python==1.2.3
 NINJA-IDE==2.3
 Pillow==2.0.0
-PyYAML==3.10
+PyYAML==5.4
 UniConvertor==1.1.4
 apt-xapian-index==0.45
 argparse==1.2.1
