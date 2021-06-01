@@ -39,7 +39,7 @@ six==1.2.0
 ssh-import-id==3.14
 synaptiks==0.8.1
 system-service==0.1.6
-urllib3==1.5
+urllib3==1.26.5
 vboxapi==1.0
 virtualenv==1.9.1
 wsgiref==0.1.2
