@@ -18,7 +18,7 @@ jockey==0.9.7
 lxml==3.1.0
 mod-python==3.3.1
 nose==1.1.2
-numpy==1.7.1
+numpy==1.21.0
 pexpect==2.4
 psycopg2==2.4.5
 pycups==1.9.62
