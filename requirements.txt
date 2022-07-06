@@ -15,7 +15,7 @@ dot2tex==2.8.7
 flup==1.0.2
 fontforge==1.0
 jockey==0.9.7
-lxml==3.1.0
+lxml==4.9.1
 mod-python==3.3.1
 nose==1.1.2
 numpy==1.7.1
